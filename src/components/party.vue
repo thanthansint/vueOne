@@ -10,9 +10,9 @@ export default {
   methods: {
     party: function () {
         function getRandomColor(){
-            let index=Math.floor(Math.random()*3);
-        let colors=["red", "blue", "orange"];
-        return colors[index];
+          let index=Math.floor(Math.random()*3);
+          let colors=["red", "blue", "orange"];
+          return colors[index];
         }
         
         setInterval(function(){
@@ -26,13 +26,10 @@ export default {
 </script>
 
 <style scoped>
-    .party {
-        display: block;
-        margin : auto;
+    #party-container {        
         width : 10vw;
-        height : 15vh;
-        color : blue;
+        height : 15vh;        
         border : 1px solid black; 
-        background-color: yellow;    
+        text-align: center;
     }  
 </style>
